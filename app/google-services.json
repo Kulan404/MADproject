@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "241291424508",
+    "firebase_url": "https://madproject-9341d-default-rtdb.firebaseio.com",
+    "project_id": "madproject-9341d",
+    "storage_bucket": "madproject-9341d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:241291424508:android:4bde9a9ecb77e2dd215d79",
+        "android_client_info": {
+          "package_name": "com.example.maddreamjob"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "241291424508-ir0t72ame3cm77inaemm6rfdpocd3c5a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUiI3Shiu-HQnwJkbrLhUaB7MWf3o72wU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "241291424508-ir0t72ame3cm77inaemm6rfdpocd3c5a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:241291424508:android:2f61734c091ee3f1215d79",
+        "android_client_info": {
+          "package_name": "com.example.test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "241291424508-ir0t72ame3cm77inaemm6rfdpocd3c5a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUiI3Shiu-HQnwJkbrLhUaB7MWf3o72wU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "241291424508-ir0t72ame3cm77inaemm6rfdpocd3c5a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
