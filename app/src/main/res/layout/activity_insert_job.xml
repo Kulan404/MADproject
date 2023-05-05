@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".insert_job">
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:textSize="35dp"
+        android:textAlignment="center"
+        android:textColor="@color/title_text"
+        android:text="Post Job" />
+
+    <EditText
+        android:id="@+id/insert_type"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:hint="Enter job type"
+        android:inputType="textPersonName"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:text="" />
+
+
+
+    <EditText
+        android:id="@+id/insert_company"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:hint="Enter Company/Name"
+        android:inputType="textPersonName"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/insert_position"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:hint="Enter Position"
+        android:inputType="textPersonName"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/insert_requirement"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:hint="Enter Requirements"
+        android:inputType="textPersonName"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/insert_salary"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:hint="Enter Salary"
+        android:inputType="textPersonName"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/insert_contact"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:hint="Enter Contact/E-mail"
+        android:inputType="textPersonName"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btn_post"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/button"
+        android:textColor="@color/button_text"
+        android:layout_marginLeft="140dp"
+        android:layout_marginRight="120dp"
+        android:text="POST NOW" />
+
+</LinearLayout>

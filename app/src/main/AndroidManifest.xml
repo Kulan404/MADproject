@@ -12,8 +12,25 @@
         android:theme="@style/Theme.MADDreamjob"
         tools:targetApi="31">
         <activity
+            android:name=".fetchingJobSeeker"
+            android:exported="false" />
+        <activity
+            android:name=".job_details_seeker"
+            android:exported="false" />
+        <activity
+            android:name=".fetchingJob"
+            android:exported="false" />
+        <activity
+            android:name=".job_details"
+            android:exported="false" />
+        <activity
             android:name=".insert_job"
             android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/Theme.MADDreamjob.NoActionBar" />
         <activity
             android:name=".recruiter_menu"
             android:exported="false" />
