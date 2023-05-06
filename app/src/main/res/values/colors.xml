@@ -7,12 +7,4 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-
-    <color name="toolbar_color">#CD122E</color>
-    <color name="button">#CD122E</color>
-    <color name="button2">#4CAF50</color>
-    <color name="button_text">#FFFFFFFF</color>
-    <color name="title_text">#CD122E</color>
-    <color name="menu_card">#36CD122E</color>
-    <color name="card">#83FFFFFF</color>
 </resources>

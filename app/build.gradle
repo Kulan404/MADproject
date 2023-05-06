@@ -1,15 +1,15 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
-    id 'com.google.gms.google-services'
+    id  'com.google.gms.google-services'
 }
 
 android {
-    namespace 'com.example.maddreamjob'
+    namespace 'com.example.dreamjobapp'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.maddreamjob"
+        applicationId "com.example.dreamjobapp"
         minSdk 24
         targetSdk 33
         versionCode 1
@@ -24,6 +24,15 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+
+    buildFeatures {
+
+        dataBinding true
+
+        // for view binding:
+        // viewBinding true
+    }
+
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8

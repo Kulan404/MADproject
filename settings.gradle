@@ -12,5 +12,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "MAD dreamjob"
+rootProject.name = "Dream Job App"
 include ':app'

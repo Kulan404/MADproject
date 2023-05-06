@@ -1,2 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <dimen name="welcome">34dp</dimen>
+    <dimen name="Company" />
+    <dimen name="email">20sp</dimen>
+    <dimen name="Login">20sp</dimen>
+    <dimen name="Account">20sp</dimen>
+    <dimen name="register">20sp</dimen>
+    <dimen name="password">20sp</dimen>
+    <dimen name="welcome_width">262dp</dimen>
+    <dimen name="welcome_height">44dp</dimen>
+    <dimen name="login_width">327dp</dimen>
+    <dimen name="login_height">38dp</dimen>
+    <dimen name="Password_width">354dp</dimen>
+    <dimen name="Password_height">52dp</dimen>
+    <dimen name="button_width">354dp</dimen>
+    <dimen name="Button_height">55dp</dimen>
+</resources>
