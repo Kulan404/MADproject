@@ -33,6 +33,15 @@
             android:name=".seeker_menu"
             android:exported="false" />
         <activity
+            android:name=".feedbackview"
+            android:exported="false"/>
+        <activity
+            android:name=".FeedbackEdit"
+            android:exported="false"/>
+        <activity
+            android:name=".Feedbackpage"
+            android:exported="false"/>
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

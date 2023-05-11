@@ -24,5 +24,13 @@ class recruiter_menu : AppCompatActivity() {
             val Intent = Intent(this,fetchingJob::class.java)
             startActivity(Intent)
         }
+
+        //feedback
+        val feedbackcard = findViewById<CardView>(R.id.FEEDBACK_CARD)
+        feedbackcard.setOnClickListener {
+            val Intent = Intent(this,Feedbackpage::class.java)
+            startActivity(Intent)
+        }
+
     }
 }
