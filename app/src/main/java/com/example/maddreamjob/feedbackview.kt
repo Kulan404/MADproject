@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
+import android.widget.Toast
 import com.example.maddreamjob.R
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
@@ -49,7 +50,7 @@ class feedbackview : AppCompatActivity() {
             if (feedbackId != null) {
                 dbref.child(feedbackId).removeValue()
             }
-
+            Toast.makeText(this, "Feedback delete!", Toast.LENGTH_SHORT).show()
 //            finish()
         }
 
