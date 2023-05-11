@@ -15,7 +15,7 @@
         android:layout_alignParentEnd="true"
         android:layout_marginStart="126dp"
         android:layout_marginEnd="126dp"
-        android:text="Dream Job"
+        android:text="@string/appNAME"
         android:textColor="@color/title_text"
         android:textStyle="bold"
         android:layout_marginTop="12dp"
@@ -33,6 +33,7 @@
         android:rowCount="3">
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/PROFILE_CARD"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_row="0"
@@ -69,6 +70,7 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/JOBS_CARD"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_row="0"
@@ -105,6 +107,7 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/LOGOUT_CARD"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_row="1"
@@ -141,6 +144,7 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/FEEDBACK_CARD"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_row="1"
