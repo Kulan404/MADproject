@@ -27,11 +27,6 @@
             android:name=".insert_job"
             android:exported="false" />
         <activity
-            android:name=".MainActivity2"
-            android:exported="false"
-            android:label="@string/title_activity_main2"
-            android:theme="@style/Theme.MADDreamjob.NoActionBar" />
-        <activity
             android:name=".recruiter_menu"
             android:exported="false" />
         <activity
