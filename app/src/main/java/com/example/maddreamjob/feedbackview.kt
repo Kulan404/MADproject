@@ -45,10 +45,11 @@ class feedbackview : AppCompatActivity() {
         val editButton: Button = findViewById(R.id.edit_button)
 
         deleteButton.setOnClickListener {
+            val intent = Intent(this, Feedbackpage::class.java)
             if (feedbackId != null) {
                 dbref.child(feedbackId).removeValue()
             }
-            finish()
+//            finish()
         }
 
         editButton.setOnClickListener {
@@ -59,6 +60,7 @@ class feedbackview : AppCompatActivity() {
 
 
             startActivity(intent)
+
         }
     }
 
