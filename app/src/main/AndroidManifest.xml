@@ -22,7 +22,23 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="false"/>
+
+        <activity
+            android:name=".FeedbackEdit"
+            android:exported="false" />
+
+        <activity
+            android:name=".feedbackview"
+            android:exported="false" />
+            <activity
+                android:name=".Feedbackpage"
+                android:exported="true"
+                >
+
+
+
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
