@@ -57,6 +57,11 @@ class Feedbackpage : AppCompatActivity() {
             intent.putExtra("email", email)
             startActivity(intent)
 
+            // Clear the input fields
+            feedbackText.setText("")
+            emailText.setText("")
+            nameText.setText("")
+
             Toast.makeText(this, "Feedback sent!", Toast.LENGTH_SHORT).show()
         }
     }

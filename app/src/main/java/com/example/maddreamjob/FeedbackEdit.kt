@@ -7,9 +7,6 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.example.maddreamjob.R
-
-import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
 
@@ -28,7 +25,6 @@ class FeedbackEdit : AppCompatActivity() {
 
         // Initialize Firebase database reference
         dbref = FirebaseDatabase.getInstance().getReference("feedback")
-
 
         // Get the feedback data passed from the previous activity
         val intent = intent
@@ -56,16 +52,19 @@ class FeedbackEdit : AppCompatActivity() {
             intent.putExtra("email", emailEditText.text.toString())
             intent.putExtra("id", feedbackId)
             startActivity(intent)
+
+            // Clear the EditText views
+            nameEditText.text.clear()
+            feedbackEditText.text.clear()
+            emailEditText.text.clear()
         }
-// Set up the cancel button click listener
+
+        // Set up the cancel button click listener
         val cancelButton: Button = findViewById(R.id.cancel_button)
         cancelButton.setOnClickListener {
-           finish() // Navigate back to previous activity
+            finish() // Navigate back to previous activity
         }
-
     }
-
-
 
     private fun updateFirebase() {
         // Get the values from the EditText views
@@ -85,10 +84,7 @@ class FeedbackEdit : AppCompatActivity() {
         }
 
         // Update the feedback in the Firebase database
-        val feedbackData = HashMap<String, Any>()
-        feedbackData["name"] = name
-        feedbackData["feedback"] = feedback
-        feedbackData["email"] = email
+        val feedbackData = Feedback(name, feedback, email)
 
         if (feedbackId.isNotEmpty()) {
             dbref.child(feedbackId).setValue(feedbackData)
