@@ -23,5 +23,18 @@ class seeker_menu : AppCompatActivity() {
             val Intent = Intent(this,Feedbackpage::class.java)
             startActivity(Intent)
         }
+
+        //seeker profile
+        val seekerprofile = findViewById<CardView>(R.id.PROFILE_CARD)
+        seekerprofile.setOnClickListener {
+            val Intent = Intent(this, userprofile::class.java)
+            startActivity(Intent)
+        }
+
+        //logout
+        val logout = findViewById<CardView>(R.id.LOGOUT_CARD)
+        logout.setOnClickListener {
+            val Intent = Intent(this, LoginActivity::class.java)
+        }
     }
 }

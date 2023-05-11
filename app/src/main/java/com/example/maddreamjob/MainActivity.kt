@@ -12,6 +12,12 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        val seeker = findViewById<Button>(R.id.SEEKER)
+        seeker.setOnClickListener {
+            val Intent = Intent(this,LoginActivity::class.java)
+            startActivity(Intent)
+        }
+
         //val recruiter = findViewById<Button>(R.id.RECRUITER)
         //recruiter.setOnClickListener {
             //val Intent = Intent(this,recruiter_menu::class.java)
