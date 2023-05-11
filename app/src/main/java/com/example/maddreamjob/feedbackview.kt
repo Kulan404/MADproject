@@ -49,6 +49,7 @@ class feedbackview : AppCompatActivity() {
             if (feedbackId != null) {
                 dbref.child(feedbackId).removeValue()
             }
+
 //            finish()
         }
 
