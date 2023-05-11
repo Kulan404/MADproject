@@ -49,7 +49,8 @@ class LoginActivity : AppCompatActivity() {
                     Toast.makeText(this, "Login successful!", Toast.LENGTH_SHORT).show()
 
                     // Switch to the UserRegister activity
-                    val intent = Intent(this, RegistrationActivity::class.java)
+                    //val intent = Intent(this, seeker_menu::class.java)
+                    val intent = Intent(this@LoginActivity, seeker_menu::class.java)
                     startActivity(intent)
                     finish()
                 }

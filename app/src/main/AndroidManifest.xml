@@ -12,37 +12,32 @@
         android:theme="@style/Theme.MADDreamjob"
         tools:targetApi="31">
 
-<!--        <activity-->
-<!--            android:name=".insert_job"-->
-<!--            android:exported="false" />-->
-
+        <!-- <activity -->
+        <!-- android:name=".insert_job" -->
+        <!-- android:exported="false" /> -->
         <activity
             android:name=".recruiter_menu"
             android:exported="false" />
-
         <activity
             android:name=".seeker_menu"
             android:exported="false" />
-<!--        <activity-->
-<!--            android:name=".MainActivity"-->
-<!--            android:exported="false"/>-->
 
         <activity
             android:name=".RegistrationActivity"
-            android:exported="false"/>
-
+            android:exported="false" />
         <activity
             android:name=".updateprofile"
-            android:exported="false"/>
-
+            android:exported="false" />
         <activity
             android:name=".userprofile"
-            android:exported="false"/>
-
+            android:exported="false" />
         <activity
             android:name=".LoginActivity"
-            android:exported="true">
+            android:exported="false"/>
 
+            <activity
+                android:name=".MainActivity"
+                android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
