@@ -18,11 +18,11 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent)
         }
 
-        //val recruiter = findViewById<Button>(R.id.RECRUITER)
-        //recruiter.setOnClickListener {
-            //val Intent = Intent(this,recruiter_menu::class.java)
-            //startActivity(Intent)
-        //}
+        val recruiter = findViewById<Button>(R.id.RECRUITER)
+        recruiter.setOnClickListener {
+            val Intent = Intent(this,recruiter_menu::class.java)
+            startActivity(Intent)
+        }
 
 
     }
