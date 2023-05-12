@@ -35,6 +35,7 @@ class seeker_menu : AppCompatActivity() {
         val logout = findViewById<CardView>(R.id.LOGOUT_CARD)
         logout.setOnClickListener {
             val Intent = Intent(this, LoginActivity::class.java)
+            startActivity(Intent)
         }
     }
 }
